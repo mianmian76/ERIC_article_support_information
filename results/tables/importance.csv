@@ -1,0 +1,11 @@
+"type","name","value"
+"dimension","Full",0.698448622905694
+"dimension","Economic",0.341666378910326
+"dimension","Environmental",0.142660136438991
+"dimension","Cost",0.152615690112895
+"feature","Per capita GDP",0.372976265974797
+"feature","Emission share",0.266330096083048
+"feature","Industrial profits",0.150657690021895
+"feature","Treatment inv./GDP",0.0928845690267215
+"feature","Environmental quality",0.122229399732457
+"feature","Treatment facility share",0.235917280823411

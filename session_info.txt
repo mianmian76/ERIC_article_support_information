@@ -1,0 +1,8 @@
+R version: R version 4.5.1 (2025-06-13 ucrt) 
+e1071        1.7.17
+randomForest 4.7.1.2
+caret        7.0.1
+glmnet       5.0
+pls          2.9.0
+ggplot2      4.0.3
+gridExtra    2.3.1
