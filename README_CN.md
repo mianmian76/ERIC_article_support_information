@@ -45,12 +45,12 @@
 | `03_validation/validation_lopo.R` | 4.2 节 | R² = 0.035，RMSE = 2907；留一省份下随机森林 0.012、KNN 0.056；省分类器（袋外）准确率 100%；对数变换稳健性 R² = 0.004 |
 | `03_validation/validation_bootstrap.R` | 4.2 节 | 中位数 0.066，90 分位 0.275 |
 | `03_validation/validation_lopo_pollutant.R` | 4.2 节 | 总体 R² = 0.66 |
-| `03_validation/cleaning_specs_robustness.R` | 稳健性（审稿人 1 第 1 条／审稿人 2 第 8 条） | 留一省份 R² = 0.003（全量 109）／0.000（去重后）／0.039（出现次数不少于三次）／0.035（分析集） |
-| `03_validation/round2_checks.R` | 第二轮审稿意见 | 常规 R² 0.696／−0.405／−0.375／0.644；bootstrap 的 RMSE 2,852，留一污染物 1,464 |
-| `03_validation/positive_control.R` | 第二轮正控制 | 留一省份可恢复 R² = 0.43（规则解释 74% 方差）／0.17（解释 50%），真实数据为 0.035 |
+| `03_validation/cleaning_specs_robustness.R` | 稳健性检验 | 留一省份 R² = 0.003（全量 109）／0.000（去重后）／0.039（出现次数不少于三次）／0.035（分析集） |
+| `03_validation/supplementary_checks.R` | 补充核验 | 常规 R² 0.696／−0.405／−0.375／0.644；bootstrap 的 RMSE 2,852，留一污染物 1,464 |
+| `03_validation/positive_control.R` | 正控制模拟 | 留一省份可恢复 R² = 0.43（规则解释 74% 方差）／0.17（解释 50%），真实数据为 0.035 |
 | `04_correlation_diagnostics/correlation.R` | 表 5／图 6 | 少数记录层面的相关达到名义显著；22 次检验无一通过 Bonferroni 校正 |
 | `04_correlation_diagnostics/sensitivity_importance.R` | 4.1 节／图 3 | 子集 0.70／0.34／0.14／0.15；置换重要性下降 0.37／0.27／0.15／0.09／0.12／0.24 |
-| `04_correlation_diagnostics/importance_lopo.R` | 4.1 节／图 3（第二轮） | 留一省份下子集 0.035／0.019／0.044／0.003；置换下降约等于 0（人均 GDP 由 0.37 降至 0） |
+| `04_correlation_diagnostics/importance_lopo.R` | 4.1 节／图 3 | 留一省份下子集 0.035／0.019／0.044／0.003；置换下降约等于 0（人均 GDP 由 0.37 降至 0） |
 
 ## 复现说明
 

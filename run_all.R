@@ -30,7 +30,7 @@ scripts <- c(
   "code/03_validation/validation_bootstrap.R",
   "code/03_validation/validation_lopo_pollutant.R",
   "code/03_validation/cleaning_specs_robustness.R",
-  "code/03_validation/round2_checks.R",
+  "code/03_validation/supplementary_checks.R",
   "code/03_validation/positive_control.R",
   "code/04_correlation_diagnostics/correlation.R",
   "code/04_correlation_diagnostics/sensitivity_importance.R",

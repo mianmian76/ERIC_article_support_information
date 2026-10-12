@@ -1,6 +1,6 @@
 # ============================================================================
 # fig5_importance.R — Figure 3b: per-feature permutation importance under
-# random cross-validation versus leave-one-province-out (round 2).
+# random cross-validation versus leave-one-province-out.
 # ============================================================================
 suppressMessages(library(ggplot2))
 imp <- read.csv("results/tables/importance.csv")

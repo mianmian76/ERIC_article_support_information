@@ -1,6 +1,6 @@
 # ============================================================================
 # fig4_dimension.R — Figure 3a: dimension contribution (subset sensitivity)
-# under random cross-validation versus leave-one-province-out (round 2).
+# under random cross-validation versus leave-one-province-out.
 # ============================================================================
 suppressMessages(library(ggplot2))
 imp <- read.csv("results/tables/importance.csv")

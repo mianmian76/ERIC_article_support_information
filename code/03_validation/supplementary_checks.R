@@ -1,5 +1,5 @@
 # ============================================================================
-# round2_checks.R — Round-2 reviewer requests (Reviewer 1, round 2)
+# supplementary_checks.R — Standard R2 and RMSE for the validation designs
 #
 # 1. Standard R2 (1 - SSE/SST) for each of the four validation designs, and
 #    RMSE for the province bootstrap and leave-one-pollutant-out rows so that

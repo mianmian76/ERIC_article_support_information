@@ -1,5 +1,5 @@
 # ============================================================================
-# positive_control.R — Positive control simulation (Reviewer 1, round 2)
+# positive_control.R — Positive control simulation
 #
 # The argument rests on a null result, so we verify that the design can detect
 # a transferable pricing rule when one exists. Simulated prices are drawn from

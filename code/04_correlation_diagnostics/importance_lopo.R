@@ -1,6 +1,6 @@
 # ============================================================================
 # importance_lopo.R — Subset sensitivity and permutation importance under
-# leave-one-province-out cross-validation (Reviewer 1, round 2)
+# leave-one-province-out cross-validation
 #
 # The dimension subsets and permutation importances in the manuscript are
 # computed under random cross-validation, where the model mostly recovers

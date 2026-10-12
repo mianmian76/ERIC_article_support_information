@@ -1,6 +1,6 @@
 # ============================================================================
 # cleaning_specs_robustness.R — LOPO robustness across alternative cleaning
-# specifications (response to Reviewer 1, Comment 1; Reviewer 2, Comment 8)
+# specifications
 #
 # Four specifications of the analysis sample are compared under
 # leave-one-province-out cross-validation with the fixed operating

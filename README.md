@@ -43,12 +43,12 @@ Data cleaning (no code provided): 109 pricing records were collected from public
 | `03_validation/validation_lopo.R` | Section 4.2 | R² = 0.035, RMSE = 2907; RF 0.012, KNN 0.056 under LOPO; province classifier accuracy (out-of-bag) 100%; log-transform robustness R² = 0.004 |
 | `03_validation/validation_bootstrap.R` | Section 4.2 | median 0.066, Q90 0.275 |
 | `03_validation/validation_lopo_pollutant.R` | Section 4.2 | overall R² = 0.66 |
-| `03_validation/cleaning_specs_robustness.R` | robustness (R1-C1 / R2-C8) | LOPO R² = 0.003 (full 109) / 0.000 (deduplicated) / 0.039 (N ≥ 3) / 0.035 (analysis set) |
-| `03_validation/round2_checks.R` | round-2 reviewer requests | conventional R² 0.696 / −0.405 / −0.375 / 0.644; RMSE bootstrap 2,852, LOPO-pollutant 1,464 |
-| `03_validation/positive_control.R` | round-2 positive control | LOPO recovers R² = 0.43 (rule 74%) / 0.17 (rule 50%) vs 0.035 on real data |
+| `03_validation/cleaning_specs_robustness.R` | robustness check | LOPO R² = 0.003 (full 109) / 0.000 (deduplicated) / 0.039 (N ≥ 3) / 0.035 (analysis set) |
+| `03_validation/supplementary_checks.R` | additional checks | conventional R² 0.696 / −0.405 / −0.375 / 0.644; RMSE bootstrap 2,852, LOPO-pollutant 1,464 |
+| `03_validation/positive_control.R` | positive control | LOPO recovers R² = 0.43 (rule 74%) / 0.17 (rule 50%) vs 0.035 on real data |
 | `04_correlation_diagnostics/correlation.R` | Table 5 / Figure 6 | a few record-level correlations reach nominal significance; none survives Bonferroni for the 22 tests |
 | `04_correlation_diagnostics/sensitivity_importance.R` | Section 4.1 / Figure 3 | subsets 0.70/0.34/0.14/0.15; importance drops 0.37/0.27/0.15/0.09/0.12/0.24 |
-| `04_correlation_diagnostics/importance_lopo.R` | Section 4.1 / Figure 3 (round 2) | LOPO subsets 0.035/0.019/0.044/0.003; LOPO drops ≈ 0 (per capita GDP 0.37 → 0) |
+| `04_correlation_diagnostics/importance_lopo.R` | Section 4.1 / Figure 3 | LOPO subsets 0.035/0.019/0.044/0.003; LOPO drops ≈ 0 (per capita GDP 0.37 → 0) |
 
 ## Reproducibility
 
