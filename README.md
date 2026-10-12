@@ -1,6 +1,6 @@
 # ERIC Pricing in China - Data and Analysis Code
 
-Accompanying the manuscript *"Provincial Differences in Pricing of the Emission Rights Initial Cost Affecting the Sustainability of China's Emission Trading Policy"* (Sustainability, manuscript ID 4458149).
+Accompanying the manuscript *"Provincial Differences in Pricing of the Emission Rights Initial Cost Affecting the Sustainability of China's Emission Trading Policy"* (Sustainability, manuscript ID 4458149). A Chinese version of this file is available as `README_CN.md`.
 
 ## Data
 
